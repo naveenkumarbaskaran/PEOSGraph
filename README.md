@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="PEOSGraph" width="700">
+</p>
+
 # 🔀 PEOSGraph
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
