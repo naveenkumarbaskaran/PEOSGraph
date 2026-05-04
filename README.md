@@ -11,6 +11,20 @@
 
 **Production-grade LangGraph implementation of the PEOS (Planner-Executor-Observer-Synthesiser) orchestration pattern for LLM agents.**
 
+---
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="assets/demo.gif" alt="PEOSGraph demo — PEOS state machine processing a query through all 4 stages" width="700">
+  <br>
+  <em>Query → Planner (intent + tool selection) → Executor (tool calls) → Observer (quality gate) → Synthesiser (formatted response)</em>
+</p>
+
+> **Try it yourself:** `pip install peosgraph && python examples/quickstart.py`
+
+---
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                            PEOSGraph                                     │
@@ -243,3 +257,21 @@ config = PEOSConfig(
 ## License
 
 MIT
+
+---
+
+## ⭐ Star History
+
+If PEOSGraph helped you build better agents — **a star helps others find it.**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=naveenkumarbaskaran/PEOSGraph&type=Date)](https://star-history.com/#naveenkumarbaskaran/PEOSGraph&Date)
+
+---
+
+<p align="center">
+  <strong>Built by <a href="https://linkedin.com/in/iamnaveenkumarb">Naveen Kumar Baskaran</a></strong>
+  <br>
+  <em>Senior SAP Developer & AI/ML Engineer @ SAP Labs India | PhD Candidate</em>
+  <br><br>
+  <a href="https://naveenkumarbaskaran.github.io/">🌐 Portfolio</a> · <a href="https://linkedin.com/in/iamnaveenkumarb">💼 LinkedIn</a> · <a href="https://twitter.com/Naveenkbaskaran">🐦 Twitter</a>
+</p>
